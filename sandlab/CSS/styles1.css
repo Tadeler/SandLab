@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+canvas {
+    border: 2px solid white;
+    background-color: black;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.category {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 5px;
+    overflow: hidden;
+}
+.accordion-content {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.accordion-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.accordion-header:hover {
+    background-color: #444;
+}
+.accordion.active .accordion-content {
+    display: flex;
+}
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.controls button:hover {
+    background-color: #444;
+}
+.controls button:active {
+    transform: scale(0.95);
+}

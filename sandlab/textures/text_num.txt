@@ -1,0 +1,12 @@
+EMPTY = 0;
+SAND = 1;
+WATER = 2;
+STONE = 3;
+FIRE = 4;
+WOOD = 5;
+DIRT = 6;
+LAVA = 7;
+WATER_VAPOR = 8;
+GRASS = 9;
+MUD = 10;
+SEED  = 11;
